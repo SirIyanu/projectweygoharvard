@@ -1,0 +1,347 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.side-bar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  width: 56px;
+height: 56px;
+
+
+  
+}
+.side-bar .icon {
+  width: 27px;
+  height: 24px;
+  
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+ 
+
+  
+  /* position: relative;
+  left: 100px;
+  bottom: 300px; */
+}
+h3 {
+  color: var(--Black, #000);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 40rem; */
+}
+
+.style1 {
+  display: flex;
+justify-content: space-between;
+}
+
+.message {
+display: flex;
+width: 152px;
+gap: 10px;
+
+}
+
+.chevron {
+height: 15px;
+
+}
+
+.twelve {
+height: 18px;
+
+}
+
+.style1 img {
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  row-gap: 30px;
+}
+input {
+  width: Fill (349px)
+height: Hug (72px)
+padding: 12px, 24px, 12px, 24px
+gap: 10px
+
+}
+
+.style2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.style3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.style4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.style5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.style6 {
+  display: flex;
+  flex-direction: row;
+}
+
+.style7 {
+  display: flex;
+  flex-direction: row;
+}
+
+.style8 {
+  display: flex;
+  flex-direction: row;
+}
+
+.Default-Picture {
+  width: 40px;
+height: 40px;
+border-radius: 8.33px;
+
+}
+
+.first-of-third-container {
+  /* width: 640px; */
+height: 80px;
+padding: 24px;
+justify: space-between
+
+}
+
+.first-of-third {
+display: flex;
+justify-content: space-between;
+
+}
+
+.call-icon {
+  width: 85px;
+height: 40px;
+padding: 10px, 16px, 10px, 16px;
+border-radius: 8px;
+gap: 8px;
+
+}
+
+.container-for-others {
+
+height: 693px;
+padding: 24px;
+gap: 32px;
+
+}
+
+.second-of-third {
+  display: flex;
+  /* width: 592px; */
+gap: 16px;
+
+}
+
+.third-of-third {
+  display: flex;
+  /* width: 640px;
+padding: 24px;
+gap: 32px; */
+
+}
+
+.fourth-of-third {
+  display: flex;
+
+
+gap: 16px;
+
+}
+
+.fifth-of-third {
+  display: flex;
+
+
+gap: 16px;
+
+}
+
+.sixth-of-third {
+  display: flex;
+
+gap: 16px;
+
+}
+
+.zigzag {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.fourth-section {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+.dots {
+  width: 40px;
+height: 40px;
+border-radius: 30px;
+gap: 12.5px;
+
+}
+.top .part-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top .part-2 .text-part {
+  display: flex;
+
+}
+
+.six {
+  width: 24px;
+height: 22px;
+padding: 2px, 8px, 2px, 8px;
+border-radius: 24px;
+
+}
+
+.pictures-part {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.dorrance {
+  display: flex;
+
+}
+
+.benny {
+  display: flex;
+}
+
+.Jamel {
+  display: flex;
+}
+
+.Lavern {
+  display: flex;
+}
+
+.Alfonso {
+  display: flex;
+}
+
+.Daryl {
+  display: flex;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.toppings {
+  display: flex;
+}
+
+.number {
+  width:36px;
+height: 22px;
+padding: 2px, 8px, 2px, 8px;
+border-radius: 24px;
+gap: 10px;
+
+}
+
+.bottoms {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filecard {
+  width: 48px;
+height: 48px;
+padding: 17px;
+border-radius: 12px;
+gap: 10px;
+
+}
+
+.icon-button {
+  width: 40px;
+height: 40px;
+border-radius: 30px;
+gap: 12.5px;
+
+}
+
+.bottom-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-three {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-four {
+  display: flex;
+  justify-content: space-between;
+}
